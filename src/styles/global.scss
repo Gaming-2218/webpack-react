@@ -1,0 +1,13 @@
+// color base agua marina
+$base-color: #00bcd4;
+// color viento
+$color: #2e1313;
+
+body {
+  background-color: $base-color;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: $color;
+  margin: 0;
+  padding: 0;
+}
