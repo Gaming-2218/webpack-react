@@ -1,7 +1,5 @@
-name: GitHub Pages Deploy Action
-on:
-  # Branch name(s) which have the source file for site/documentation
-  push: [ main ]
+name: Build and Deploy
+on: [push]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
